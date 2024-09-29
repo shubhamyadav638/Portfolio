@@ -33,7 +33,7 @@ function Home() {
             </div>
             <br />
             <p className="text-lg md:text-xl text-justify">
-              Hi! My name is Shubham Vishwakarma. I am a full-stack web developer with skills in React.js, Node.js, MongoDB, Express.js, and more.
+              Hi! My name is Shubham Yadav. I am a full-stack web developer with skills in React.js, Node.js, MongoDB, Express.js, and more.
             </p>
             <br />
             {/* Social Media Icons */}
