@@ -1,14 +1,11 @@
 import React from "react";
-import pic from "../../public/shubham.jpg";
-
+import pic from "../../public/profile.png";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { IoLogoYoutube } from "react-icons/io";
 import { FaTelegram } from "react-icons/fa6";
-
 import { SiMongodb, SiExpress } from "react-icons/si";
 import { FaReact, FaNodeJs } from "react-icons/fa6";
-
 import { ReactTyped } from "react-typed";
 
 function Home() {

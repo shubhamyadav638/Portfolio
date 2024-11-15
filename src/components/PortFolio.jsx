@@ -1,5 +1,4 @@
 import React from "react";
-import java from "../../public/java.png";
 import python from "../../public/python.webp";
 import mongoDB from "../../public/mongodb.jpg";
 import express from "../../public/express.png";
@@ -33,11 +32,11 @@ function PortFolio() {
       logo: python,
       name: "Python",
     },
-    {
-      id: 6,
-      logo: java,
-      name: "Java",
-    },
+    // {
+    //   id: 6,
+    //   logo: java,
+    //   name: "Java",
+    // },
   ];
 
   return (
@@ -71,7 +70,13 @@ function PortFolio() {
                     Video
                   </button>
                   <button className="flex-1 bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded transition-all duration-300">
-                    Source Code
+                    <a
+                      href="https://github.com/shubhamyadav638/LMS"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Source Code
+                    </a>
                   </button>
                 </div>
               </div>
