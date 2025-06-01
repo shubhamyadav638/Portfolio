@@ -1,59 +1,60 @@
-import React from "react";
-import fresher from "../../public/fresher.png"
-// import html from "../../public/html.png";
-// import css from "../../public/css.jpg";
-// import java from "../../public/java.png";
-// import javascript from "../../public/javascript.png";
-// import oracle from "../../public/oracle.png";
-// import spring from "../../public/spring.png";
-// import springBoot from "../../public/springBoot.jpg";
-
-
+import html from "../../public/html.png";
+import css from "../../public/css.jpg";
+import react from "../../public/reactjs.png";
+import javascript from "../../public/javascript.png";
+import reactnative from "../../public/reactjs.png";
+import shopify from "../../public/shopify.jpg";
+import graphql from "../../public/graphql.png";
+import tailwind from "../../public/tailwind.png";
+import bootstrap from "../../public/bootstrap.jpg";
 function Experience() {
-  const cardItem =[{
-    id: 1,
-        logo: fresher,
-        name: "fresher",
-  }
-]
-  
-  //[
-  //   {
-  //     id: 1,
-  //     logo: html,
-  //     name: "HTML",
-  //   },
-  //   {
-  //     id: 2,
-  //     logo: css,
-  //     name: "CSS",
-  //   },
-  //   {
-  //     id: 3,
-  //     logo: java,
-  //     name: "Java",
-  //   },
-  //   {
-  //     id: 4,
-  //     logo: javascript,
-  //     name: "JavaScript",
-  //   },
-  //   {
-  //     id: 5,
-  //     logo: oracle,
-  //     name: "Oracle",
-  //   },
-  //   {
-  //     id: 6,
-  //     logo: spring,
-  //     name: "Spring",
-  //   },
-  //   {
-  //     id: 7,
-  //     logo: springBoot,
-  //     name: "Spring Boot",
-  //   },
-  // ];
+  const cardItem = [
+    {
+      id: 1,
+      logo: html,
+      name: "HTML",
+    },
+    {
+      id: 2,
+      logo: css,
+      name: "CSS",
+    },
+    {
+      id: 3,
+      logo: javascript,
+      name: "JavaScript",
+    },
+    {
+      id: 4,
+      logo: react,
+      name: "ReactJs",
+    },
+    {
+      id: 5,
+      logo: reactnative,
+      name: "React Native",
+    },
+    {
+      id: 6,
+      logo: shopify,
+      name: "Shopify",
+    },
+    {
+      id: 7,
+      logo: graphql,
+      name: "Graphql",
+    },
+    {
+      id: 8,
+      logo: tailwind,
+      name: "Tailwind css",
+    },
+    {
+      id: 9,
+      logo: bootstrap,
+      name: "Bootstrap",
+    },
+  ];
 
   return (
     <div
@@ -63,7 +64,7 @@ function Experience() {
       <div>
         <h1 className="text-5xl font-bold mb-5 text-center text-gray-800">Experience</h1>
         <p className="text-center text-xl mb-10 text-gray-600">
-          I've more than 2 years of experience in the below technologies.
+          I've more than 1 years of experience in the below technologies.
         </p>
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-10">
           {cardItem.map(({ id, logo, name }) => (
