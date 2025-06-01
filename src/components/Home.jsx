@@ -7,6 +7,7 @@ import { FaTelegram } from "react-icons/fa6";
 import { SiMongodb, SiExpress } from "react-icons/si";
 import { FaReact, FaNodeJs } from "react-icons/fa6";
 import { ReactTyped } from "react-typed";
+import { GrGraphQl } from "react-icons/gr";
 
 function Home() {
   return (
@@ -30,7 +31,7 @@ function Home() {
             </div>
             <br />
             <p className="text-lg md:text-xl text-justify">
-              Hi! My name is Shubham Yadav. I am a full-stack web developer with skills in React.js, Node.js, MongoDB, Express.js, and more.
+              Hi! My name is Shubham Yadav. I am a full-stack web and Android developer with skills in React Native,React.js, Node.js, MongoDB, Express.js, Tailwindcss, Shopify, Graphql and more.
             </p>
             <br />
             {/* Social Media Icons */}
@@ -67,6 +68,7 @@ function Home() {
                   <SiExpress className="text-3xl md:text-4xl hover:scale-110 duration-200 cursor-pointer" />
                   <FaReact className="text-3xl md:text-4xl hover:scale-110 duration-200 cursor-pointer" />
                   <FaNodeJs className="text-3xl md:text-4xl hover:scale-110 duration-200 cursor-pointer" />
+                  <GrGraphQl className="text-3xl md:text-4xl hover:scale-110 duration-200 cursor-pointer" />
                 </div>
               </div>
             </div>
